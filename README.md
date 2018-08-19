@@ -10,4 +10,4 @@ Note:
 
 **-Program still contains some bugs but works for the most part**
 
-**-Program creates file on desktop relative to my computer path to desktop (/Users/sedakpuri/Desktop/). This is only temporary and you can fix this by altering the value of the directoryPath variable**
+**-Program creates file on desktop relative to my computer path to desktop (/Users/sedakpuri/Desktop/). This is only temporary and will be fixed in later adaptations but you can fix this by altering the value of the directoryPath variable**
