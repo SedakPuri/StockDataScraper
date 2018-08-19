@@ -13,5 +13,4 @@ Note:
 **-Program creates file on desktop relative to my computer path to desktop (/Users/sedakpuri/Desktop/). This is only temporary and will be fixed in later adaptations but you can fix this by altering the value of the directoryPath variable**
 
 Dependencies:
-**-BeautifulSoup**
-**-Resources**
+**BeautifulSoup**, **Resources**
