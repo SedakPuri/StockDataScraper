@@ -14,3 +14,6 @@ Note:
 
 Dependencies:
 **BeautifulSoup**, **Resources**
+
+Update 2.0:
+Project also includes an Apple Automator program that runs a shell script and creates a clean user interface to prompt the user to input in a stock ticker and fetches data (more improvements to come :P). 
