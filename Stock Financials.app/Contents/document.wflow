@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>444.7</string>
+	<key>AMApplicationVersion</key>
+	<string>2.8</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<dict/>
+					<key>buttonNegative</key>
+					<dict/>
+					<key>defaultAnswer</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array/>
+					</dict>
+					<key>defaultMessage</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Enter a stock ticker you wish to get financials for...</string>
+						</array>
+					</dict>
+					<key>requireInput</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Text.action</string>
+				<key>ActionName</key>
+				<string>Ask for Text</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<string>OK</string>
+					<key>buttonNegative</key>
+					<string>Cancel</string>
+					<key>defaultAnswer</key>
+					<string></string>
+					<key>defaultMessage</key>
+					<string>Enter a stock ticker you wish to get financials for...</string>
+					<key>requireInput</key>
+					<true/>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>buttonAffirmative</key>
+					<string>OK</string>
+					<key>buttonNegative</key>
+					<string>Cancel</string>
+					<key>defaultAnswer</key>
+					<string></string>
+					<key>defaultMessage</key>
+					<string>Enter a stock ticker you wish to get financials for...</string>
+					<key>requireInput</key>
+					<true/>
+					<key>temporary items path</key>
+					<string>/var/folders/2c/c3w7lcg97s9bjfyv_5r5x1gr0000gn/T/671AE6BB-494F-4579-B73B-C41AFDF6E6A2/1/com.apple.Automator.TextInputDialog</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.TextInputDialog</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForTextAction</string>
+				<key>InputUUID</key>
+				<string>41D67A47-049C-4AB7-BA8C-A3FF6630E743</string>
+				<key>Keywords</key>
+				<array>
+					<string>Text</string>
+					<string>Ask</string>
+					<string>Prompt</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>238D8931-CA9B-43AC-88B3-4D47A1786953</string>
+				<key>UUID</key>
+				<string>D8429DBF-2B33-4358-B577-F07970E8A314</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+					<string>TextEdit</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultAnswer</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string>OK</string>
+						<key>name</key>
+						<string>buttonAffirmative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>defaultMessage</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>Cancel</string>
+						<key>name</key>
+						<string>buttonNegative</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>requireInput</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>406.000000:432.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>05BC2D4F-4330-4633-8102-E3AFD3E5EED9</string>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Set Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>Set Value of Variable</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>05BC2D4F-4330-4633-8102-E3AFD3E5EED9</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>temporary items path</key>
+					<string>/var/folders/2c/c3w7lcg97s9bjfyv_5r5x1gr0000gn/T/671AE6BB-494F-4579-B73B-C41AFDF6E6A2/1/com.apple.Automator.SetValueofVariable</string>
+					<key>variableUUID</key>
+					<string>05BC2D4F-4330-4633-8102-E3AFD3E5EED9</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SetValueofVariable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Set_Value_of_Variable</string>
+				<key>InputUUID</key>
+				<string>04FC2DE3-5247-4ADE-B4B4-A88AC50F9235</string>
+				<key>Keywords</key>
+				<array>
+					<string>variable</string>
+					<string>binding</string>
+					<string>input</string>
+					<string>output</string>
+					<string>storage</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>7BDA9740-A562-4D79-AA07-585771C9D21D</string>
+				<key>UUID</key>
+				<string>5CC5DC39-2559-493A-B0B1-1F5D499B3465</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>variableUUID</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>406.000000:718.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>05BC2D4F-4330-4633-8102-E3AFD3E5EED9</string>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>Get Value of Variable</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>05BC2D4F-4330-4633-8102-E3AFD3E5EED9</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>temporary items path</key>
+					<string>/var/folders/2c/c3w7lcg97s9bjfyv_5r5x1gr0000gn/T/671AE6BB-494F-4579-B73B-C41AFDF6E6A2/1/com.apple.Automator.GetValueofVariable</string>
+					<key>variableUUID</key>
+					<string>AAPL</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.GetValueofVariable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Get_Value_of_Variable</string>
+				<key>InputUUID</key>
+				<string>89346515-9EE2-4FF6-8280-F7738C232C7D</string>
+				<key>Keywords</key>
+				<array>
+					<string>variable</string>
+					<string>binding</string>
+					<string>input</string>
+					<string>output</string>
+					<string>storage</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>5736A4A1-1052-482B-85BA-D75D23415E23</string>
+				<key>UUID</key>
+				<string>726AC376-9482-4D4F-B4D9-72EF9EEE09DC</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>variableUUID</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>406.000000:821.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>import csv
+import os
+import sys
+import requests
+from BeautifulSoup import BeautifulSoup
+
+#User input
+symb = ''
+for f in sys.argv[1:]:
+	symb = f
+
+print "\nThanks user, generating your report...\n"
+
+#Making a directory to store Excel files
+directoryPath = "/Users/sedakpuri/Desktop/" + symb.upper() + "_StockData"
+try:
+    if not os.path.exists(directoryPath):
+        os.makedirs(directoryPath)
+except OSError:
+    print ('Error Creating directory! Was this report generated twice from this directory: ' +  directoryPath)
+    sys.exit(0)
+
+#Defining the url's to pull from
+urlH = 'https://finance.yahoo.com/quote/' + symb + '/history?period1=345452400&amp;period2=1534572000&amp;interval=1d&amp;filter=history&amp;frequency=1d'
+urlI = 'https://finance.yahoo.com/quote/' + symb + '/financials?p=F'
+urlB = 'https://finance.yahoo.com/quote/'+ symb +'/balance-sheet?p=F'
+urlC = 'https://finance.yahoo.com/quote/'+ symb +'/cash-flow?p=F'
+
+
+
+
+#Pulling from Historical Prices Table
+response = requests.get(urlH)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)                              
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_HistoricalData.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+
+writer.writerow(["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"])
+writer.writerows(listRows)
+
+
+
+
+
+
+#Pulling from Financials Table (Income Statement)
+response = requests.get(urlI)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_IncomeStatement.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+writer.writerows(listRows)
+
+
+
+
+
+
+#Pulling from Financials Table (Balance Sheet)
+response = requests.get(urlB)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_BalanceSheet.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+writer.writerows(listRows)
+
+
+
+
+
+#Pulling from Financials Table (Cash Flows)
+response = requests.get(urlC)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_CashFlows.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+writer.writerows(listRows)
+
+print "Sucess! Look on your desktop!\n"</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/usr/bin/python</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>import csv
+import os
+import sys
+import requests
+from BeautifulSoup import BeautifulSoup
+
+#User input
+symb = ''
+for f in sys.argv[1:]:
+	symb = f
+
+print "\nThanks user, generating your report...\n"
+
+#Making a directory to store Excel files
+directoryPath = "/Users/sedakpuri/Desktop/" + symb.upper() + "_StockData"
+try:
+    if not os.path.exists(directoryPath):
+        os.makedirs(directoryPath)
+except OSError:
+    print ('Error Creating directory! Was this report generated twice from this directory: ' +  directoryPath)
+    sys.exit(0)
+
+#Defining the url's to pull from
+urlH = 'https://finance.yahoo.com/quote/' + symb + '/history?period1=345452400&amp;period2=1534572000&amp;interval=1d&amp;filter=history&amp;frequency=1d'
+urlI = 'https://finance.yahoo.com/quote/' + symb + '/financials?p=F'
+urlB = 'https://finance.yahoo.com/quote/'+ symb +'/balance-sheet?p=F'
+urlC = 'https://finance.yahoo.com/quote/'+ symb +'/cash-flow?p=F'
+
+
+
+
+#Pulling from Historical Prices Table
+response = requests.get(urlH)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)                              
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_HistoricalData.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+
+writer.writerow(["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"])
+writer.writerows(listRows)
+
+
+
+
+
+
+#Pulling from Financials Table (Income Statement)
+response = requests.get(urlI)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_IncomeStatement.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+writer.writerows(listRows)
+
+
+
+
+
+
+#Pulling from Financials Table (Balance Sheet)
+response = requests.get(urlB)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_BalanceSheet.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+writer.writerows(listRows)
+
+
+
+
+
+#Pulling from Financials Table (Cash Flows)
+response = requests.get(urlC)
+html = response.content
+soup = BeautifulSoup(html)
+table = soup.find('tbody')
+
+listRows = []
+for row in table.findAll('tr'):                                 #List of rows
+    listCells = []
+    for cell in row.findAll('td'):                              #Individual Cells
+        listCells.append(cell.text)
+    listRows.append(listCells)
+
+#Setup/Outputting Historical Prices Table to a csv format!
+path = directoryPath + "/" + symb.upper() + "_CashFlows.csv"
+outfile = open(path,"wb")
+writer = csv.writer(outfile)
+writer.writerows(listRows)
+
+print "Sucess! Look on your desktop!\n"</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/usr/bin/python</string>
+					<key>source</key>
+					<string></string>
+					<key>temporary items path</key>
+					<string>/var/folders/2c/c3w7lcg97s9bjfyv_5r5x1gr0000gn/T/671AE6BB-494F-4579-B73B-C41AFDF6E6A2/1/com.apple.RunShellScript</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>D17EBECD-68D4-4659-95AF-4E0AAA6D5256</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>C94AC533-0291-4E4A-B7A2-80A58E148AC4</string>
+				<key>UUID</key>
+				<string>DFA8FB88-3A3D-4AF5-936D-F101654F6061</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>406.000000:1184.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>44E45BC3-C23B-4B38-9229-678BB79460CF</key>
+		<dict>
+			<key>from</key>
+			<string>D8429DBF-2B33-4358-B577-F07970E8A314 - D8429DBF-2B33-4358-B577-F07970E8A314</string>
+			<key>to</key>
+			<string>5CC5DC39-2559-493A-B0B1-1F5D499B3465 - 5CC5DC39-2559-493A-B0B1-1F5D499B3465</string>
+		</dict>
+		<key>E2B567A7-7F3C-46EA-B1A1-2B98F412A729</key>
+		<dict>
+			<key>from</key>
+			<string>5CC5DC39-2559-493A-B0B1-1F5D499B3465 - 5CC5DC39-2559-493A-B0B1-1F5D499B3465</string>
+			<key>to</key>
+			<string>726AC376-9482-4D4F-B4D9-72EF9EEE09DC - 726AC376-9482-4D4F-B4D9-72EF9EEE09DC</string>
+		</dict>
+		<key>E2E98217-B67F-49EE-BC43-12111F898E57</key>
+		<dict>
+			<key>from</key>
+			<string>726AC376-9482-4D4F-B4D9-72EF9EEE09DC - 726AC376-9482-4D4F-B4D9-72EF9EEE09DC</string>
+			<key>to</key>
+			<string>DFA8FB88-3A3D-4AF5-936D-F101654F6061 - DFA8FB88-3A3D-4AF5-936D-F101654F6061</string>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>05BC2D4F-4330-4633-8102-E3AFD3E5EED9</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>Ticker</string>
+		</dict>
+	</array>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
